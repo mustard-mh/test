@@ -1,3 +1,6 @@
 vscode:
   extensions:
     - bierner.color-info
+    - vscodevim.vim@1.21.10
+    - https://github.com/golang/vscode-go/releases/download/v0.31.1/go-0.31.1.vsix
+    - ./prettier-vscode-9.2.0.vsix
