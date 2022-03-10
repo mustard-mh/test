@@ -1,0 +1,10 @@
+tasks:
+  - name: single # runs during prebuild
+    command: echo single
+  - name: left
+    command: echo left
+  - name: right
+    command: echo right
+    openMode: split-right
+  - name: another
+    command: ps -efj fww
