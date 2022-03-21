@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN apt update && apt install sudo ca-certificates
+RUN apt update && apt install sudo ca-certificates -y
