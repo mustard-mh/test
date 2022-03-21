@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN apt update && apt install sudo
+RUN apt update && apt install sudo ssl-cert
