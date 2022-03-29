@@ -1,5 +1,9 @@
 tasks:
-  - init: |
-      sleep 80 && echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+vscode:
+  extensions:
+    - http://ipv4.download.thinkbroadband.com/1GB.zip
+    - http://212.183.159.230/1GB.zip
+    - https://speed.hetzner.de/10GB.bin
