@@ -1,5 +1,75 @@
+
 tasks:
-  - init: |
-      sleep 80 && echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+vscode:
+  extensions:
+    - matt-rudge.auto-open-preview-panel
+    - njpwerner.autodocstring
+    - amazonwebservices.aws-toolkit-vscode
+    - nick-rudenko.back-n-forth
+    - aaron-bond.better-comments
+    - Stephen-Hamilton-C.black-plus-material
+    - matepek.vscode-catch2-test-adapter
+    - usernamehw.commands
+    - RandomFractalsInc.vscode-data-preview
+    - vscjava.vscode-java-debug
+    - ms-azuretools.vscode-docker
+    - ivangabriele.vscode-git-add-and-commit
+    - waderyan.gitblame
+    - anweber.git-buttons
+    - donjayamanne.git-extension-pack
+    - pinage404.git-extension-pack
+    - mhutchie.git-graph
+    - donjayamanne.githistory
+    - felipecaputo.git-project-manager
+    - arturock.gitstash
+    - reduckted.vscode-gitweblinks
+    - perrinjerome.git-commit-syntax
+    - perrinjerome.git-rebase-syntax
+    - buianhthang.gitflow
+    - KnisterPeter.vscode-github
+    - CodeStream.github-enterprise
+    - zardoy.github-manager
+    - codezombiech.gitignore
+    - GitLab.gitlab-workflow
+    - vymarkov.add-gitlab-npm-token
+    - eamodio.gitlens
+    - Vtrois.gitmoji-vscode
+    - golang.go
+    - GustavoASC.google-drive-vscode
+    - ilkka.google-java-format
+    - Greenbyte.handlebars-preview
+    - kisstkondoros.vscode-gutter-preview
+    - ms-toolsai.jupyter
+    - redhat.java
+    - ms-vscode.live-server
+    - ritwickdey.LiveServer
+    - magicstack.MagicPython
+    - bierner.markdown-mermaid
+    - PKief.material-icon-theme
+    - vscjava.vscode-maven
+    - sndst00m.vscode-native-svg-preview
+    - CodeStream.codestream
+    - nimsaem.nimvscode
+    - nocalhost.nocalhost
+    - nrwl.angular-console
+    - ziyasal.vscode-open-in-github
+    - liangcheng-plugins.open-sourcetree-in-vscode-plugin
+    - thingalon.pony-ssh
+    - Luxcium.pop-n-lock-theme-vscode
+    - znck.preview
+    - alefragnani.project-manager
+    - ms-python.python
+    - cmoog.sqlnotebook
+    - cweijan.vscode-ssh
+    - Kelvin.vscode-sshfs
+    - bradlc.vscode-tailwindcss
+    - vscjava.vscode-java-test
+    - angular-rxjs-ngrx.angular-rxjs-ngrx
+    - johnsoncodehk.vscode-typescript-vue-plugin
+    - bajdzis.vscode-database
+    - znck.vue
+    - johnsoncodehk.volar
+    - CoenraadS.bracket-pair-colorizer-2
