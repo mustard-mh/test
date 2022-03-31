@@ -1,5 +1,4 @@
-tasks:
-  - init: |
-      sleep 80 && echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+vscode:
+  extensions:
+    - vscjava.vscode-maven
+    
