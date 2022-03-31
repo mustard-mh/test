@@ -1,4 +1,15 @@
 vscode:
   extensions:
+    - vscjava.vscode-java-debug
     - vscjava.vscode-maven
-    
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-spring-boot-dashboard
+    - vscjava.vscode-java-test
+    - redhat.fabric8-analytics
+    - mhutchie.git-graph
+    - pivotal.vscode-spring-boot
+    - vscjava.vscode-spring-initializr
+    - anweber.vscode-httpyac
+    - rangav.vscode-thunder-client
+    - cweijan.vscode-postgresql-client2
+    - ms-azuretools.vscode-docker
