@@ -1,18 +1,18 @@
 vscode:
   extensions:
-    - redhat.java
-    - vscjava.vscode-java-dependency
-    - vscjava.vscode-java-debug
-    - vscjava.vscode-maven
-    - vscjava.vscode-java-test
     - https://github.com/redhat-developer/vscode-rsp-ui/releases/download/v0.23.11/rsp-ui-0.23.11-78.vsix
     - https://github.com/gitkraken/vscode-gitlens/releases/download/v11.7.0/gitlens-11.7.0.vsix
-    - redhat.fabric8-analytics
     - https://github.com/microsoft/vscode-docker/releases/download/v1.20.0/vscode-docker-1.20.0.vsix
-    - mhutchie.git-graph
-    - pivotal.vscode-spring-boot
-    - vscjava.vscode-spring-initializr
-    - vscjava.vscode-spring-boot-dashboard
-    - anweber.vscode-httpyac
-    - rangav.vscode-thunder-client
-    - cweijan.vscode-postgresql-client2
+    - https://open-vsx.org/api/cweijan/vscode-postgresql-client2/3.7.0/file/cweijan.vscode-postgresql-client2-3.7.0.vsix
+    - https://open-vsx.org/api/redhat/fabric8-analytics/0.3.5/file/redhat.fabric8-analytics-0.3.5.vsix
+    - https://open-vsx.org/api/vscjava/vscode-maven/0.35.1/file/vscjava.vscode-maven-0.35.1.vsix
+    - https://open-vsx.org/api/vscjava/vscode-java-dependency/0.19.0/file/vscjava.vscode-java-dependency-0.19.0.vsix
+    - https://open-vsx.org/api/vscjava/vscode-spring-initializr/0.9.0/file/vscjava.vscode-spring-initializr-0.9.0.vsix
+    - https://open-vsx.org/api/redhat/java/1.4.0/file/redhat.java-1.4.0.vsix
+    - https://open-vsx.org/api/anweber/vscode-httpyac/5.2.3/file/anweber.vscode-httpyac-5.2.3.vsix
+    - https://open-vsx.org/api/vscjava/vscode-java-debug/0.40.0/file/vscjava.vscode-java-debug-0.40.0.vsix
+    - https://open-vsx.org/api/rangav/vscode-thunder-client/1.14.4/file/rangav.vscode-thunder-client-1.14.4.vsix
+    - https://open-vsx.org/api/vscjava/vscode-spring-boot-dashboard/0.3.0/file/vscjava.vscode-spring-boot-dashboard-0.3.0.vsix
+    - https://open-vsx.org/api/Pivotal/vscode-spring-boot/1.32.0/file/Pivotal.vscode-spring-boot-1.32.0.vsix
+    - https://open-vsx.org/api/mhutchie/git-graph/1.30.0/file/mhutchie.git-graph-1.30.0.vsix
+    - https://open-vsx.org/api/vscjava/vscode-java-test/0.34.2/file/vscjava.vscode-java-test-0.34.2.vsix
