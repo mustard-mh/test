@@ -4,4 +4,4 @@ tasks:
   - name: Run setup
     init: |
       sleep 5 \
-      && gp env HELLO=${HELLO}_$(date)
+      && gp env HELLO="${HELLO}:$(date)"
