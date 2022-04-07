@@ -1,4 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
   - name: Run setup
     init: |
-      gp env HELLO=WORLD
+      sleep 5 \
+      && gp env HELLO=${HELLO}_$(date)
