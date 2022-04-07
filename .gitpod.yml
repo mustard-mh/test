@@ -1,5 +1,4 @@
 tasks:
-  - init: |
-      sleep 80 && echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+  - name: Run setup
+    init: |
+      gp env HELLO=WORLD
