@@ -1,4 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
   - name: Run setup
     init: |
-      gp env HELLO=WORLD
+      gp env HELLO=NO
