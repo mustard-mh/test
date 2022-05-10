@@ -1,5 +1,5 @@
 tasks:
   - init: |
-      sleep 80 && echo 'TODO: build project'
+      yarn
     command: |
-      echo 'TODO: start app'
+      echo hello
