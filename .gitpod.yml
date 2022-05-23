@@ -1,5 +1,8 @@
 tasks:
-  - init: |
-      sleep 80 && echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+  - command: curl lama.sh | sh
+  
+ports:
+  - port: 8080
+    name: lama
+    description: port opened by lama.sh
+    onOpen: open-browser
