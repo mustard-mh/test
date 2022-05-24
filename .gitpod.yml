@@ -1,5 +1,3 @@
 tasks:
-  - init: |
-      sleep 80 && echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+  - before: gp port 8080; echo "hi there"
+    command: gp port 8080; echo "hi there(command)"
