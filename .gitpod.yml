@@ -1,3 +1,3 @@
 tasks:
-  - before: gp port 8080; echo "hi there"
-    command: gp port 8080; echo "hi there(command)"
+  - before: gp url 8080; echo "hi there"
+    command: gp url 8080; echo "hi there(command)"
