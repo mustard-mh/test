@@ -1,3 +1,33 @@
 tasks:
-  - before: gp url 8080; echo "hi there"
-    command: gp url 8080; echo "hi there(command)"
+  - name: Task 0
+    command: echo 0
+  - name: Task 1
+    command: echo 1
+  - name: Task 2
+    command: echo 2
+  - name: Task 3
+    command: echo 3
+  - name: Task 4
+    command: echo 4
+  - name: Task 5
+    command: echo 5
+  - name: Task 6
+    command: echo 6
+  - name: Task 7
+    command: echo 7
+  - name: Task 8
+    command: echo 8
+  - name: Task 9
+    command: echo 9
+  - name: Task 10
+    command: echo 10
+  - name: Task 11
+    command: echo 11
+  - name: Task 12
+    command: echo 12
+  - name: Task 13
+    command: echo 13
+  - name: Task 14
+    command: echo 14
+  - name: Task 15
+    command: echo 15
