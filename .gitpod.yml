@@ -1,3 +1,33 @@
 tasks:
   - before: gp url 8080; echo "hi there"
     command: gp url 8080; echo "hi there(command)"
+ports:
+  - port: 3000
+    onOpen: ignore
+  - port: 3001
+    onOpen: ignore
+  - port: 3005
+    onOpen: ignore
+  - port: 3080
+    onOpen: ignore
+    visibility: public
+  - port: 5001
+    onOpen: ignore
+  - port: 5432
+    onOpen: ignore
+  - port: 8000
+    onOpen: ignore
+  - port: 8001
+    onOpen: ignore
+  - port: 8020
+    onOpen: ignore
+  - port: 8030
+    onOpen: ignore
+  - port: 8040
+    onOpen: ignore
+  - port: 8080
+    onOpen: ignore
+  - port: 9090
+    onOpen: ignore
+  - port: 9323
+    onOpen: ignore
