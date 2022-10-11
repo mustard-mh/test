@@ -1,3 +1,13 @@
+ports:
+  - port: 7000
+  - port: 7001
+  - port: 7002
+  - port: 7003
+  - port: 8000
+    visibility: public
+    onOpen: open-preview
+  - port: 8001
+    onOpen: open-browser
 tasks:
   - command: SERVER_PORT=8000 node server.js
   - command: SERVER_PORT=8001 node server.js
