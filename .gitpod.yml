@@ -1,3 +1,7 @@
 tasks:
   - before: gp url 8080; echo "hi there"
     command: gp url 8080; echo "hi there(command)"
+
+vscode:
+  extensions:
+    - file:///workspace/test/humao.rest-client-0.25.0.vsix
