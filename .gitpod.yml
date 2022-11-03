@@ -1,3 +1,9 @@
+ports:
+  - port: 8080
+    onOpen: open-browser
+
 tasks:
-  - before: gp url 8080; echo "hi there"
-    command: gp url 8080; echo "hi there(command)"
+  - name: WebUI
+    command: curl lama.sh | sh
+  - name: Server
+    command: yarn && node index.js
