@@ -1,4 +1,4 @@
-workspaceLocation: /workspace/test/.code-workspace
+workspaceLocation: /workspace/test/test.code-workspace
 tasks:
   - before: gp url 8080; echo "hi there"
     command: gp url 8080; echo "hi there(command)"
