@@ -1,4 +1,4 @@
-image: gitpod/workspace-postgres
+image: gitpod/workspace-mysql
 tasks:
   - before: gp url 8080; echo "hi there"
     command: gp url 8080; echo "hi there(command)"
