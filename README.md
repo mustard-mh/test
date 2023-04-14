@@ -1,4 +1,4 @@
 # test
 test repo1
 
-localapp
+localapp12
