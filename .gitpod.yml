@@ -5,3 +5,4 @@ tasks:
 vscode:
   extensions:
     - file:///workspace/test/humao.rest-client-0.25.0.vsix
+    - gitpod.gitpod-theme
