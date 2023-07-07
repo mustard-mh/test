@@ -3,6 +3,7 @@ tasks:
     command: gp url 8080; echo "hi there(command)"
 
 vscode:
-  extensions:
-    - file:///workspace/test/humao.rest-client-0.25.0.vsix
+  extensions
     - gitpod.gitpod-theme
+    - esbenp.prettier-vscode
+    - file:///workspace/test/humao.rest-client-0.25.0.vsix
