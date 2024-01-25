@@ -18,7 +18,7 @@ jobs:
 
     - name: Modify .gitpod.Dockerfile
       run: |
-        sed -i '/RUN sleep 30/i echo hello' .gitpod.Dockerfile
+        sed -i '/RUN sleep 30/i RUN echo hello' .gitpod.Dockerfile
 
     - name: Commit and Push
       run: |
