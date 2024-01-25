@@ -16,6 +16,10 @@ jobs:
       run: |
         echo "$(date)" >> prebuild.sh
 
+    - name: Modify .gitpod.Dockerfile
+      run: |
+        sed -i '/RUN sleep 30/i echo hello' .gitpod.Dockerfile
+
     - name: Commit and Push
       run: |
         git config --global user.name 'GitHub Action'
