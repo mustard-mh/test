@@ -1,9 +1,6 @@
 name: Trigger Image Prebuild
 
 on:
-  push:
-    branches:
-      - prebuild/image-build
   workflow_dispatch:
 
 jobs:
