@@ -2,5 +2,5 @@ from gitpod/workspace-base
 
 COPY ./prebuild.sh .
 
-echo hello
+RUN echo hello
 RUN sleep 30
