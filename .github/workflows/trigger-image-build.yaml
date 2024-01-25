@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - prebuild/image-build
+  workflow_dispatch:
 
 jobs:
   update-prebuild:
