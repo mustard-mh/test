@@ -1,5 +1,5 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: ./print.sh && echo hello > /workspace/test/aa.log
+  - init: ./print.sh && echo hello
     command: echo hey
