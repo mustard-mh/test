@@ -1,3 +1,4 @@
-tasks:
-  - init: echo hello > /tmp/aa.log
-    command: echo world
+jetbrains:
+  goland:
+    plugins:
+      - com.github.copilot
