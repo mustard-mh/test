@@ -1,3 +1,6 @@
 tasks:
-  - init: echo hello > /tmp/aa.log
-    command: echo world
+ - name: Init activegate workspace
+   before: |
+     echo hello-before
+   init: |
+     echo hello-init
