@@ -1,3 +1,7 @@
+
 tasks:
-  - init: echo hello > /tmp/aa.log
-    command: echo world
+    - name: Launch JupyterLab
+      init: pip install jupyterlab
+      command:
+        jupyter lab --port 8888 --ServerApp.token='' --ServerApp.allow_remote_access=true --no-browser;
+        gp preview --external $(gp url 8888)
