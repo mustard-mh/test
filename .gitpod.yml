@@ -8,3 +8,6 @@ tasks:
       command: |
         gp ports await 8888
         gp preview --external $(gp url 8888)
+    - name: Hello
+      command: |
+        echo why it has tasks cache?
