@@ -4,5 +4,7 @@ tasks:
       init: pip install jupyterlab
       command: |
         jupyter lab --port 8888 --ServerApp.token='' --ServerApp.allow_remote_access=true --no-browser
+    - name: Open JupyterLab
+      command: |
         gp ports await 8888
         gp preview --external $(gp url 8888)
