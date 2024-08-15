@@ -1,2 +1,2 @@
 tasks:
-  - init: mkdir -p /workspace/.config/JetBrains/RemoteDev-IU/plugins; ls -s /workspace/test /workspace/.config/JetBrains/RemoteDev-IU/plugins/gitpod-remote
+  - init: mkdir -p /workspace/.config/JetBrains/RemoteDev-IU/plugins; ln -s /workspace/test /workspace/.config/JetBrains/RemoteDev-IU/plugins/gitpod-remote
