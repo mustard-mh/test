@@ -1,4 +1,10 @@
 image: gitpod/workspace-base
 
 tasks:
-  - init: mkdir -p /workspace/.config/JetBrains/RemoteDev-IU/plugins; ln -s /workspace/test /workspace/.config/JetBrains/RemoteDev-IU/plugins/gitpod-remote
+  - init: |
+      mkdir -p /workspace/test/a_folder;
+      mkdir -p /workspace/.config/JetBrains/RemoteDev-IU/plugins;
+      ln -s /workspace/test/a_folder /workspace/.config/JetBrains/RemoteDev-IU/plugins/gitpod-remote;
+      rm -rf /workspace/test/a_folder;
+      ls -la /workspace/.config/JetBrains/RemoteDev-IU/plugins;
+      ls -la /workspace/test;
