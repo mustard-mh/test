@@ -25,8 +25,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "yarn run lint",
-    "package": "vsce package --yarn",
-    "test": "node ./test/runTest.js"
+    "package": "vsce package --yarn"
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
