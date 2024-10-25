@@ -15,6 +15,6 @@ CWM_HOST_STATUS_OVER_HTTP_TOKEN=gitpod "./idea-IU-$BUILD_VERSION/bin/remote-dev-
 
 Replace `243.20847.40` to a target build when needed:
 
-- 243.21155.17: https://download.jetbrains.com/idea/ideaIU-243.21155.17.tar.gz
-- 243.20847.40
-- 243.19420.21: https://download.jetbrains.com/idea/ideaIU-243.19420.21.tar.gz
+- working `243.21155.17`: https://download.jetbrains.com/idea/ideaIU-243.21155.17.tar.gz
+- broken `243.20847.40`
+- working `243.19420.21`: https://download.jetbrains.com/idea/ideaIU-243.19420.21.tar.gz
