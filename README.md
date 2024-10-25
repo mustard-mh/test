@@ -1,4 +1,6 @@
 ```sh
+mkdir test
+
 rm -rf idea*
 export BUILD_VERSION=243.20847.40
 
