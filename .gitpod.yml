@@ -4,4 +4,4 @@ tasks:
 
 vscode:
   extensions:
-    - ./stripe.vscode-stripe-2.0.14.vsix
+    - /workspace/test/stripe.vscode-stripe-2.0.14.vsix
