@@ -1,3 +1,7 @@
 tasks:
   - init: echo hello > /tmp/aa.log
     command: echo world
+
+vscode:
+  extensions:
+    - ./stripe.vscode-stripe-2.0.14.vsix
