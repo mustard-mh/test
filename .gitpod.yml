@@ -5,3 +5,4 @@ tasks:
 vscode:
   extensions:
     - /workspace/test/stripe.vscode-stripe-2.0.14.vsix
+    - file:///workspace/test/carlosorozcojimenez.ui5-tools-2.1.4.vsix
