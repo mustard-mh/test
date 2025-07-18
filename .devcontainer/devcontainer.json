@@ -1,0 +1,12 @@
+{
+  "name": "Curl Only Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "postCreateCommand": "curl --version && echo 'curl is available' && (wget --version 2>/dev/null && echo 'ERROR: wget should not be available' || echo 'wget correctly not available')"
+}
