@@ -1,0 +1,28 @@
+{
+	"name": "Enterprise Permission Test",
+	"image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	
+	"containerUser": "vscode",
+	"remoteUser": "vscode",
+	
+	// 模拟企业版的权限限制
+	"runArgs": [
+		"--cap-drop=ALL",
+		"--cap-add=CHOWN",
+		"--cap-add=DAC_OVERRIDE",
+		"--cap-add=SETGID",
+		"--cap-add=SETUID"
+	],
+	
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"remote.autoForwardPorts": true
+			}
+		}
+	},
+	
+	"postCreateCommand": "./setup_enterprise_simulation.sh",
+	"postStartCommand": "echo '🎯 Ready to test! Run: /tmp/test_port_forwarding.sh'"
+}
