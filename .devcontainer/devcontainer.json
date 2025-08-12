@@ -6,15 +6,6 @@
 	"containerUser": "vscode",
 	"remoteUser": "vscode",
 	
-	// 模拟企业版的权限限制
-	"runArgs": [
-		"--cap-drop=ALL",
-		"--cap-add=CHOWN",
-		"--cap-add=DAC_OVERRIDE",
-		"--cap-add=SETGID",
-		"--cap-add=SETUID"
-	],
-	
 	"customizations": {
 		"vscode": {
 			"settings": {
