@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Tasks{% endblock %}
+
+{% block content %}
+<h1>Task Manager</h1>
+<p style="margin-bottom: 1rem;">
+    <a href="{% url 'task_create' %}" class="btn btn-primary">Add Task</a>
+</p>
+
+{% if tasks %}
+<ul style="list-style: none;">
+    {% for task in tasks %}
+    <li style="background: white; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; display: flex; align-items: center; justify-content: space-between;">
+        <div style="{% if task.completed %}text-decoration: line-through; color: #999;{% endif %}">
+            <strong>{{ task.title }}</strong>
+            {% if task.description %}
+            <p style="font-size: 0.9rem; color: #666;">{{ task.description }}</p>
+            {% endif %}
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+            <form method="post" action="{% url 'task_toggle' task.pk %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm" style="background: #16a34a; color: white;">
+                    {% if task.completed %}Undo{% else %}Done{% endif %}
+                </button>
+            </form>
+            <form method="post" action="{% url 'task_delete' task.pk %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            </form>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p style="color: #666;">No tasks yet. Create one to get started.</p>
+{% endif %}
+{% endblock %}
